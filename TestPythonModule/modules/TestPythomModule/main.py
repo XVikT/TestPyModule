@@ -66,7 +66,7 @@ class HubManager(object):
         # sets the callback when a message arrives on "input1" queue.  Messages sent to 
         # other inputs or to the default will be silently discarded.
         #self.client.set_message_callback("input1", receive_message_callback, self)
-        nums = ["2", "4", "6"]
+        nums = ["1", "3", "5"]
         for x in nums:
             print (x)
     # Forwards the message received onto the next stage in the process.
